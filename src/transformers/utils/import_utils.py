@@ -410,7 +410,7 @@ def is_torch_fx_available():
 
 
 def is_peft_available():
-    return _peft_available
+    return True
 
 
 def is_bs4_available():
